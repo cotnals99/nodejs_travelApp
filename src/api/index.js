@@ -47,7 +47,7 @@ export const getPlacesData = async (sw, ne) => {
             'X-RapidAPI-Key': '2a8d1e7f13msh38945db7e8c570ap1b7baajsnbb927d641e1a'
           }
         });
-        console.log(data)
+        // console.log(data)
         return data;
 
         // const response = await axios.get(URL, options);
